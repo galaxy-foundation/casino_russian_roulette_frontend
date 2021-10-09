@@ -1,0 +1,43 @@
+{
+  "name": "gambling",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "emoji-mart": "^3.0.1",
+    "emoji-picker-react": "^3.4.8",
+    "formik": "^2.2.9",
+    "jwt-decode": "^3.1.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-notifications": "^1.7.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "2.1.8",
+    "react-slick": "^0.28.1",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^2.3.0",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:5000"
+}

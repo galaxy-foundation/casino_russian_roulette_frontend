@@ -1,0 +1,94 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./styles/fontfile/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: Montserrat-bold;
+  src: url(./styles/fontfile/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat-strong-bold;
+  src: url(./styles/fontfile/Montserrat-ExtraBold.ttf);
+}
+/* @font-face {
+  font-family: Montserrat;
+  src: url(./styles/fontfile/Montserrat-Black.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(./styles/fontfile/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(./styles/fontfile/Montserrat-ExtraLight.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(./styles/fontfile/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(./styles/fontfile/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(./styles/fontfile/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(./styles/fontfile/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(./styles/fontfile/Montserrat-Thin.ttf);
+} */
+* {
+  /* direction: ltr; */
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 0.6vw;
+  font-family: "Montserrat-bold";
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+i {
+  font-family: "FontAwesome" !important;
+}
+:root {
+  --white: #ffffff;
+  --mainclr: rgb(248, 191, 96);
+  --backclr: rgb(28, 33, 39);
+  --mainshwclr: rgb(114, 94, 60);
+  --headshwclr: rgb(153, 122, 73);
+  --headclr: rgb(28, 33, 39);
+  --black: #000;
+  --slidclr: rgb(25, 30, 36);
+  --chatheadclr: rgb(32, 37, 43);
+  --clr75: rgb(41, 149, 189);
+  --clr100: rgb(175, 96, 248);
+  --clr125: rgb(189, 41, 41);
+  --clrbrag: rgb(201, 91, 63);
+  --clradmin: rgb(255, 252, 18);
+  --clrmod: rgb(41, 189, 105);
+  --winblkclr: rgb(44, 49, 55);
+  --wineachclr: rgb(23, 28, 34);
+  --logbackclr: rgb(44, 49, 55);
+  --logmodalbackclr: rgb(25, 30, 36);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.textalign {
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}

@@ -1,0 +1,239 @@
+.MuiPaper-root {
+  background-color: transparent !important;
+}
+.Accmodaltitle {
+  width: 100%;
+  text-align: center;
+  font-size: 16px !important;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.secupassdisablebtn {
+  border-radius: 0.5vw !important;
+  background-color: rgb(163, 160, 155) !important;
+  border-bottom-color: rgb(106, 106, 106) !important;
+  border-bottom-style: solid !important;
+  border-width: 0.5rem !important;
+  padding: 0 !important;
+}
+
+.secupassdisablebtn .MuiButton-label {
+  font-size: 20px !important;
+  color: black !important;
+}
+
+.secupassenablebtn {
+  border-radius: 0.5vw !important;
+  background-color: var(--mainclr) !important;
+  border-bottom-color: var(--mainshwclr) !important;
+  border-bottom-style: solid !important;
+  border-width: 0.5rem !important;
+  padding: 0 !important;
+}
+
+.secupassenablebtn .MuiButton-label {
+  font-size: 20px !important;
+  color: black !important;
+}
+
+.secu-pass-edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.secu-pass-edit-title {
+  font-size: 12px !important;
+}
+
+.secu-pass-edit-act {
+  font-size: 12px !important;
+  color: var(--mainclr);
+  cursor: pointer;
+}
+.secublockline {
+  width: 100%;
+  border: 1px solid rgb(36, 41, 47);
+}
+.trans-edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.trans-edit-title {
+  font-size: 12px !important;
+}
+.trans-edit-act {
+  font-size: 12px !important;
+  cursor: pointer;
+}
+.trans-edit-act > i {
+  font-size: 12px !important;
+  color: var(--mainclr);
+}
+.mainclr {
+  color: var(--mainclr);
+}
+.trans-line {
+  width: 100%;
+  border: 1px solid rgb(36, 41, 47);
+  margin: 5px 0;
+}
+.trans-edit-act-checkbox:checked::after {
+  color: var(--mainclr);
+  background-color: var(--mainclr);
+}
+
+@media screen and (max-width: 650px) {
+  .myaccountmainbox {
+    width: 100% !important;
+  }
+}
+
+.betshead {
+  width: 100%;
+  display: flex;
+  background-color: rgb(36, 41, 47);
+  flex-direction: row;
+  padding: 10px 0px;
+  margin: 10px 0px 5px 0px;
+  border-radius: 5px;
+}
+
+.betshead-element {
+  flex: 1;
+  text-align: center;
+  font-size: 12px !important;
+}
+
+.betsbody {
+  background-color: rgb(36, 41, 47);
+  border-radius: 5px;
+  padding: 1px 0px;
+  margin-bottom: 8px;
+}
+.betsblockmain {
+  margin: 8px 0px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(36, 41, 47);
+}
+.betsblock-element {
+  flex: 1;
+  font-size: 10px !important;
+  padding: 6px 0px;
+  background-color: rgb(25, 30, 36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.leftelement {
+  margin-left: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.rightelement {
+  margin-right: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.maincolor {
+  color: var(--mainclr);
+  font-size: 10px !important;
+}
+.statsmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.statstext {
+  font-size: 12px !important;
+  color: rgb(140, 143, 146);
+  text-align: center;
+}
+.texthalf {
+  width: 60%;
+}
+.textdouble {
+  width: 80%;
+}
+.white {
+  color: white;
+}
+.stats-keycopy {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.stats-keycopy-content {
+  min-width: calc(100% - 110px);
+  font-size: 10px !important;
+  background-color: rgb(25, 30, 36);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 15px 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+}
+.stats-keycopy-btn {
+  min-width: 100px;
+  font-size: 12px !important;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+  color: black;
+}
+.stats-qr {
+  margin-top: 5px;
+}
+.stats-enable-qr {
+  width: 100%;
+}
+
+.statscodedisablebtn {
+  border-radius: 0.5vw !important;
+  background-color: rgb(163, 160, 155) !important;
+  border-bottom-color: rgb(106, 106, 106) !important;
+  border-bottom-style: solid !important;
+  border-width: 0.5rem !important;
+  padding: 0 !important;
+}
+
+.statscodedisablebtn .MuiButton-label {
+  font-size: 20px !important;
+  color: black !important;
+}
+
+.statscodeenablebtn {
+  border-radius: 0.5vw !important;
+  background-color: var(--mainclr) !important;
+  border-bottom-color: var(--mainshwclr) !important;
+  border-bottom-style: solid !important;
+  border-width: 0.5rem !important;
+  padding: 0 !important;
+}
+
+.statscodeenablebtn .MuiButton-label {
+  font-size: 20px !important;
+  color: black !important;
+}

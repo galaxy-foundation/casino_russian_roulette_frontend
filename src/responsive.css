@@ -1,0 +1,1768 @@
+/* @media screen and (max-width: 1200px) {
+  .bonusbtnico {
+    font-size: 2.5vh !important;
+  }
+  .bonussmbtn {
+    font-size: 1.5vh !important;
+  }
+  .bonussmtitle {
+    font-size: 0.9vh !important;
+  }
+} */
+
+/* @media screen and (max-width: 1600px) {
+  .bonussmbtn {
+    font-size: 1.9vh !important;
+  }
+} */
+
+/* @media screen and (max-width: 1500px) {
+  .bonussmbtn {
+    font-size: 1.7vh !important;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .bonussmbtn {
+    font-size: 1.6vh !important;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .bonussmbtn {
+    font-size: 1.5vh !important;
+  }
+} */
+
+@media screen and (min-width: 1281px) {
+  .chatmenuclsico {
+    display: none !important;
+  }
+  .mainchatcls {
+    width: 13.2%;
+    background-color: #ccc;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0px !important;
+  }
+  /* .mainchatcls * {
+    font-family: "Montserrat";
+  } */
+}
+
+@media screen and (max-width: 1280px) {
+  .winnermainsub1_1 {
+    font-size: 8px !important;
+  }
+  .mainchatcls {
+    position: fixed !important;
+    border-right: 1px solid var(--mainclr);
+    left: calc(-250px - 0.5vh) !important;
+    width: 250px !important;
+  }
+  .mainchatcls * {
+    font-size: 9px !important;
+    /* font-family: "Montserrat"; */
+  }
+  .comchatmain {
+    padding: 5px 8px !important;
+    overflow-wrap: break-word;
+  }
+  .comchatmain > i {
+    font-size: 10px !important;
+  }
+  .chatroomtitle {
+    font-size: 11px !important;
+  }
+  .comchatmain > span {
+    font-size: 10px !important;
+  }
+
+  .chatmenuico > i {
+    font-size: 12px !important;
+  }
+
+  .chatmenuico {
+    display: block !important;
+  }
+
+  .mainleftseccls {
+    width: 100% !important;
+  }
+  .chatadminchat {
+    padding: 5px 8px !important;
+  }
+  .chatadminchat > i {
+    font-size: 10px !important;
+  }
+  .chatadminchat > span {
+    font-size: 10px !important;
+  }
+  .chatmodchat {
+    padding: 5px 8px !important;
+  }
+  .chatmodchat > i {
+    font-size: 10px !important;
+  }
+  .chatmodchat > span {
+    font-size: 10px !important;
+  }
+  .chatroundnotify {
+    padding: 5px 8px !important;
+    border-width: 4px !important;
+  }
+  .chatwonnotify {
+    padding: 5px 8px !important;
+    border-width: 4px !important;
+  }
+  .chatnotifymain {
+    border-width: 4px !important;
+  }
+
+  .divedit:empty:not(:focus):before {
+    font-size: 9px !important;
+  }
+  .divedit {
+    font-size: 10px !important;
+    letter-spacing: 0.5px;
+  }
+  .inputedit {
+    letter-spacing: 0.5px;
+    min-height: 2vh !important;
+    font-size: 1.5vh !important;
+  }
+  .chatconmain {
+    padding: 0px 5px !important;
+  }
+  .chatcon {
+    font-size: 10px !important;
+  }
+  .chatcircle {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+  }
+  .chateachicon > i {
+    font-size: 12px !important;
+  }
+}
+
+@keyframes chaticoslide {
+  from {
+    right: 0;
+  }
+  to {
+    right: 250px;
+  }
+}
+
+@keyframes chatslide {
+  from {
+    right: -15%;
+  }
+  to {
+    right: 0;
+  }
+}
+.winnermainheader {
+  height: 5.4vh;
+  background-color: rgb(44, 49, 55);
+  margin: 0.3vh;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8vw;
+  align-items: center;
+  border-radius: 0.2vw;
+}
+.chatactchatbtn {
+  color: var(--black);
+  cursor: pointer;
+  padding: 0.3vh 0.5vh;
+  font-size: 1vh;
+  width: fit-content;
+  border-radius: 20%;
+  background-color: var(--mainclr);
+  border-bottom: 0.5vh solid var(--mainshwclr);
+}
+.chatactico {
+  flex: 1.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.chatcon {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.5vw;
+}
+.chatcircle {
+  width: 0.5vw;
+  height: 0.5vw;
+  border-radius: 50%;
+  background-color: var(--mainclr);
+  margin-left: 0.25vw;
+  margin-right: 0.25vw;
+}
+.chatconmain {
+  height: 4vh;
+  background-color: rgb(32, 37, 43);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.winnermain {
+  width: 18.4%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--backclr);
+  transition: width 1s ease-in-out;
+}
+.winnermain * {
+  font-family: "Montserrat";
+}
+
+.divedit:empty:not(:focus):before {
+  content: attr(data-placeholder);
+  color: rgb(172, 172, 172);
+  font-size: 0.6vw;
+}
+.inputedit {
+  max-height: 10vh;
+  min-height: 1vh;
+  height: 1vh;
+  border-radius: 5px;
+  background-color: rgb(44, 49, 55);
+  border: 0px none white;
+  font-size: 1vh;
+  padding: 1vh 4vh 1vh 1vh;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0px 0.3vh;
+  box-sizing: none;
+  resize: none;
+}
+.inputedit::placeholder {
+  color: rgb(148, 149, 150);
+}
+.inputedit::-webkit-scrollbar {
+  display: none;
+}
+.inputedit {
+  scrollbar-width: none;
+}
+.inputedit:focus {
+  outline: none;
+}
+
+.divedit {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+  margin: 0px 1vh;
+  padding: 0px 1vh;
+  background-color: rgb(44, 49, 55);
+  border-radius: 5px;
+  font-size: 0.6vw;
+}
+
+.chatnotifymain {
+  padding: 0.3vw 0.5vw 0.5vw 0.5vw;
+  background-color: rgb(45, 50, 54);
+  border-width: 0.25vw;
+  border-color: var(--mainclr);
+  border-style: none none none solid;
+}
+
+.chatroundnotify {
+  padding: 0.3vw 0.5vw;
+  background-color: rgb(45, 50, 54);
+  border-width: 0.25vw;
+  border-color: var(--mainclr);
+  border-style: none none none solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chatwonnotify {
+  padding: 0.3vw 0.5vw;
+  background-color: rgb(45, 50, 54);
+  border-width: 0.25vw;
+  border-color: var(--mainclr);
+  border-style: none none none solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chatmodchat {
+  padding: 0.3vw 0.5vw;
+  font-size: 0.55vw;
+}
+.chatmenuico:hover {
+  opacity: 1 !important;
+  z-index: 2000;
+}
+.chatmenuico {
+  display: none;
+  position: fixed;
+  background-color: rgb(32, 37, 43);
+  padding: 0.5vh;
+  border-style: solid solid solid none;
+  border-width: 0.3vh;
+  border-color: var(--mainclr);
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s all;
+  top: 10vh;
+  left: 0;
+}
+.SignDialogClosebtn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  z-index: 3000;
+}
+.SignDialogClosebtn > i {
+  font-size: 14px;
+}
+.SignDialogClosebtn > i:hover {
+  font-size: 18px;
+}
+.chatmenuclsico {
+  /* animation: 0.5s linear 0s chaticoslide; */
+  z-index: 3000;
+  position: absolute;
+  background-color: rgb(32, 37, 4);
+  padding: 0.5vh;
+  border-style: solid solid solid none;
+  border-width: 0.3vh;
+  border-color: var(--mainclr);
+  cursor: pointer;
+  opacity: 1;
+  top: 10vh;
+  left: -30px;
+  transition: 1s all;
+}
+.SignDialog .MuiPaper-root {
+  background-color: transparent !important;
+}
+.comchatmain {
+  padding: 0.3vw 0.5vw;
+  font-size: 0.55vw;
+  overflow-wrap: break-word;
+}
+.chatadminchat {
+  padding: 0.3vw 0.5vw;
+  color: var(--clradmin);
+  font-size: 0.55vw;
+}
+
+@media screen and (max-width: 968px) {
+  .mid_stick {
+    width: 0.5vw !important;
+  }
+  .mainleftseccls {
+    height: 206vw !important;
+  }
+  .main-gamb-over-ammoCountRoll {
+    top: 3vw !important;
+  }
+  .each_ammo {
+    width: 1.5vw !important;
+    height: 5vw !important;
+    margin: 0px 0.7vw !important;
+  }
+  .headmaindiv {
+    position: relative !important;
+    justify-content: space-around !important;
+    height: 15vw !important;
+  }
+  .headmainimg {
+    height: 10vw !important;
+  }
+  .slidermenu {
+    height: 15vw !important;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .sliderdiv1 {
+    height: 3vw !important;
+  }
+  .sliderdiv2 {
+    height: 3vw !important;
+  }
+  .main-gamb-over-sec1 {
+    font-size: 30vw !important;
+  }
+  .main-gamb-over-sec2 {
+    font-size: 30vw !important;
+  }
+  * {
+    font-size: 1.8vw !important;
+  }
+  .winnermainsub3_2_2_icon {
+    font-size: 1.1vw !important;
+  }
+  .trapezium {
+    height: 1.2vw !important;
+    border-bottom: 0.3vw solid var(--mainshwclr) !important;
+    margin: 0px 0.35vw !important;
+  }
+  .slidermobilefont-lvl {
+    font-size: 1vw !important;
+  }
+  .slidermobilefont {
+    font-size: 1vw !important;
+  }
+  .slidermobilefontsm1 {
+    font-size: 1.2vw !important;
+  }
+  .slidermobilefontsm {
+    font-size: 0.5vw !important;
+  }
+
+  .bonusbar1 {
+    height: 0.5vw !important;
+    margin: 0px 0.2vw !important;
+    border-bottom: 0.3vw solid var(--mainshwclr) !important;
+  }
+
+  .bonusbar2 {
+    height: 0.5vw !important;
+    margin: 0px 0.2vw !important;
+    border-bottom: 0.3vw solid var(--mainshwclr) !important;
+  }
+
+  .walletdiv {
+    display: none !important;
+  }
+  .userregico {
+    position: absolute !important;
+    /* display: none !important; */
+    right: 0 !important;
+  }
+
+  .gamblingmain {
+    width: 100% !important;
+    order: 1 !important;
+    height: 90vw !important;
+  }
+  .playermain {
+    order: 2 !important;
+    width: 50% !important;
+    position: absolute;
+    top: 90vw;
+  }
+
+  .winnermain {
+    order: 3 !important;
+    width: 50% !important;
+    position: absolute;
+    top: 90vw;
+    left: 50%;
+  }
+  .playsecmain {
+    flex-direction: column !important;
+    position: relative !important;
+    height: 90vw !important;
+  }
+  .gambtopbonus {
+    height: 6vw !important;
+    margin: 0 !important;
+    padding: 0px !important;
+  }
+  .gambtopimg {
+    height: 2.5vw !important;
+    width: auto !important;
+  }
+  .gambtopbonusfontsm {
+    font-size: 1.1vw !important;
+  }
+  .gambtopbonusfontmd {
+    font-size: 2.5vw !important;
+  }
+  .gambtopbonusfont {
+    font-size: 3vw !important;
+  }
+  .video-container {
+    height: 50vw !important;
+    margin: 0 !important;
+  }
+  .gambbottombonus {
+    height: 4vw !important;
+    margin: 0vh !important;
+    padding: 0.4vw 1vw !important;
+  }
+  .bonustnsm {
+    margin: 0.2vw !important;
+    border-radius: 0.5vw !important;
+  }
+  .bonussmtitle {
+    font-size: 1vw !important;
+  }
+  .bonussmbtn {
+    font-size: 2vw !important;
+  }
+  .bonussmbtn1 {
+    font-size: 2vw !important;
+  }
+  .bonussmicon {
+    font-size: 1.5vw !important;
+  }
+
+  .gambplaysec {
+    height: 14vw !important;
+    margin: 0.3vw !important;
+    position: relative;
+  }
+
+  .gambplaysecleft {
+    order: 1 !important;
+    width: 50% !important;
+    margin-right: 0.3vw !important;
+    border-radius: 0.3vw !important;
+  }
+  .gambplaysecmid {
+    order: 3 !important;
+    width: 100% !important;
+    position: absolute !important;
+    top: 14vw;
+    margin: 0 !important;
+    margin-top: 0.5vw !important;
+    margin-bottom: 0.3vw !important;
+    height: 14vw !important;
+    border-radius: 0.3vw !important;
+  }
+  .gambplaysecright {
+    order: 2 !important;
+    width: 50% !important;
+    margin-left: 0.3vw !important;
+    border-radius: 0.3vw !important;
+  }
+  .gambplaysecmidfoot {
+    display: none !important;
+  }
+  .gambplaysecfootbtn {
+    padding: 0 1.5vw !important;
+  }
+  .gambplaysecfootsubbtn {
+    margin: 1vw 0 !important;
+  }
+
+  .gambplaysecbtn1 {
+    margin-right: 0.3vw !important;
+    /* background-color: var(--mainclr) !important; */
+    /* border-bottom: 1vw solid var(--mainshwclr) !important; */
+    border-top-left-radius: 1vw !important;
+    border-bottom-left-radius: 1vw !important;
+  }
+  .gambplaysecbtn2 {
+    margin-right: 0.3vw !important;
+    /* background-color: var(--mainclr) !important; */
+    /* border-bottom: 1vw solid var(--mainshwclr) !important; */
+    font-size: 9vw !important;
+    font-family: "Montserrat-bold" !important;
+  }
+  .gambplaysecbtn3 {
+    /* border-bottom: 1vw solid var(--mainshwclr) !important; */
+    border-top-right-radius: 1vw !important;
+    border-bottom-right-radius: 1vw !important;
+    font-size: 10vw !important;
+  }
+  .gambplaysecbtn3 > i {
+    font-size: 9vw !important;
+  }
+  .gambplayactsecfont {
+    font-size: 4.5vw !important;
+    font-family: "Montserrat-bold" !important;
+  }
+  .rangeright {
+    height: 0.5vw !important;
+    border-radius: 0.5vw !important;
+  }
+
+  .rangeright::-webkit-slider-thumb {
+    width: 5vw !important;
+    height: 2.5vw !important;
+    background: white !important;
+    border-radius: 0.5vw !important;
+    border-bottom: 0.5vw solid white !important;
+    margin-top: -0.9vw !important;
+  }
+  .rangeright::-moz-range-track {
+    z-index: 10 !important;
+  }
+  .rangeright::-moz-range-thumb {
+    width: 5vw !important;
+    height: 2.5vw !important;
+    background: white !important;
+    border-radius: 0.5vw !important;
+    border-bottom: 0.5vw solid white !important;
+  }
+
+  .customplayscroll {
+    height: 63vw !important;
+  }
+  .playsecdiv {
+    height: 70vw !important;
+  }
+
+  .playscroll1 {
+    height: 6vw !important;
+    background-color: rgb(44, 49, 55) !important;
+    margin: 0.5vw !important;
+    border-radius: 0.3vw !important;
+    font-size: 2vw !important;
+  }
+  .playscroll2 {
+    height: 5vw !important;
+    margin: 0.5vw !important;
+    border-radius: 0.3vw !important;
+  }
+  .playscroll2_1 {
+    padding-left: 1vw !important;
+    font-size: 1.8vw !important;
+  }
+  .gamb-play-sec-left-2-recom {
+    font-size: 3vw !important;
+  }
+  .playscroll2_2 {
+    padding-right: 1vw !important;
+    font-size: 1.8vw !important;
+  }
+  .playscroll7_title {
+    font-size: 2vw !important;
+  }
+  .playscroll3 {
+    margin: 0.5vw !important;
+    border-radius: 0.3vw !important;
+  }
+  .playscrollsub3 {
+    padding: 0.2vh !important;
+    padding-right: 0px !important;
+  }
+  .playscrollsub3_1 {
+    width: calc(70% - 1.3vw) !important;
+    padding-left: 1vw !important;
+    padding-top: 0.3vw !important;
+    padding-bottom: 0.3vw !important;
+    margin-right: 0.3vw !important;
+  }
+  .playscrollsub3_2 {
+    padding-top: 0.3vw !important;
+    padding-bottom: 0.3vw !important;
+    margin-right: 0.3vw !important;
+    border-top-right-radius: 0.5vw !important;
+    border-bottom-right-radius: 0.5vw !important;
+  }
+  .playscrollsub3_1_1 {
+    width: calc(100% - 0.3vw) !important;
+    font-size: 1.8vw !important;
+  }
+  .playscrollsub3_2_3 {
+    font-size: 1.5vw !important;
+  }
+  .playscrollsub3_2_1 {
+    padding: 0.3vw 0.5vw 0.3vw 0px !important;
+    border-top-right-radius: 0.5vw !important;
+    border-bottom-right-radius: 0.5vw !important;
+  }
+  .playscrollsub3_2_2 {
+    font-size: 1.8vw !important;
+  }
+
+  .playscroll4 {
+    margin: 0.3vw 0.5vw !important;
+    padding: 0.2vw !important;
+    border-radius: 0.3vw !important;
+  }
+  .playscroll4_1 {
+    margin: 0.2vw !important;
+    padding: 0.3vw 0.2vw !important;
+    border-top-right-radius: 0.5vw !important;
+    border-bottom-right-radius: 0.5vw !important;
+  }
+  .playscroll4_1_1 {
+    font-size: 1.8vw !important;
+  }
+
+  .playscroll4_1_2 {
+    font-size: 1.5vw !important;
+  }
+  .playscroll5 {
+    margin: 0.3vw 0.5vw !important;
+    padding: 0.2vw !important;
+    border-radius: 0.3vw !important;
+  }
+  .playscroll6 {
+    margin: 0.3vw 0.5vw !important;
+    border-radius: 0.3vw !important;
+  }
+  .playscroll7 {
+    height: 15vw !important;
+    margin: 0.5vw !important;
+    border-radius: 0.5vw !important;
+  }
+  .playscroll7_1 {
+    border-top-left-radius: 0.7vw !important;
+    border-bottom-left-radius: 0.7vw !important;
+    border-bottom-width: 1vw !important;
+    font-size: 2vw !important;
+  }
+  .playscroll7_2 {
+    border-top-right-radius: 0.7vw !important;
+    border-bottom-right-radius: 0.7vw !important;
+    border-bottom-width: 1vw !important;
+    font-size: 2vw !important;
+  }
+  .winnermainheader {
+    height: 6vw !important;
+    margin: 0.5vw !important;
+    border-radius: 0.5vw !important;
+    font-size: 2vw !important;
+  }
+  .customwinscroll {
+    height: 62vw !important;
+    margin: 0.5vw !important;
+    border-radius: 0.5vw !important;
+  }
+  .customwinnermain {
+    margin: 0.3vw !important;
+    margin-right: 0.2vw !important;
+  }
+  .winnermainsub1 {
+    width: calc(10% - 0.3vw) !important;
+    padding-top: 0.3vw !important;
+    padding-bottom: 0.3vw !important;
+    margin-right: 0.3vw !important;
+    border-top-left-radius: 0.5vw !important;
+    border-bottom-left-radius: 0.5vw !important;
+  }
+  .winnermainsub1_1 {
+    font-size: 1.5vw !important;
+  }
+  .winnermainsub2 {
+    width: calc(60% - 1.3vw) !important;
+    padding-left: 1vw !important;
+    padding-top: 0.3vw !important;
+    padding-bottom: 0.3vw !important;
+    margin-right: 0.3vw !important;
+  }
+  .winnermainsub3 {
+    padding-top: 0.3vh;
+    padding-bottom: 0.3vw;
+    border-top-right-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+  }
+}
+
+.AccountDialog > .MuiDialog-container > .MuiDialog-paperWidthSm {
+  width: 100% !important;
+}
+.playscroll7_content {
+  flex: 4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.playscroll7_content1 {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+}
+.playscroll7_title {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat-bold";
+  align-items: center;
+}
+.playscroll7 {
+  height: 10vh;
+  background-color: rgb(44, 49, 55);
+  margin: 0.3vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.15vw;
+}
+.playscroll7_1 {
+  flex: 1;
+  background-color: var(--mainclr);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-width: 0.7vh;
+  border-bottom-style: solid;
+  border-bottom-color: var(--mainshwclr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  cursor: pointer;
+  font-family: "Montserrat-bold";
+  font-size: 0.7vw;
+  transition: all 500ms ease 0s;
+}
+.playscroll7_1_sel {
+  background-color: rgb(28, 33, 39);
+  border-bottom-color: rgb(33, 38, 44);
+  color: white;
+}
+.playscroll7_2 {
+  flex: 1;
+  background-color: rgb(28, 33, 39);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-width: 0.7vh;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(33, 38, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: "Montserrat-bold";
+  font-size: 0.7vw;
+  transition: all 500ms ease 0s;
+}
+.playscroll7_2_sel {
+  background-color: var(--mainclr);
+  border-bottom-color: var(--mainshwclr);
+  color: black;
+}
+.customwinscroll {
+  height: 70.8vh;
+  margin: 0.3vh;
+  overflow-y: scroll;
+  background-color: var(--winblkclr);
+  border-radius: 0.2vw;
+}
+.customwinnermain {
+  display: flex;
+  flex-direction: row;
+  margin: 0.1vw;
+}
+.winnermainsub1 {
+  width: calc(10% - 0.15vw);
+  display: flex;
+  background-color: var(--wineachclr);
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.15vw;
+  padding-bottom: 0.15vw;
+  margin-right: 0.15vw;
+  border-top-left-radius: 0.3vw;
+  border-bottom-left-radius: 0.3vw;
+}
+.winnermainsub1_1 {
+  width: 100%;
+  color: var(--mainclr);
+  word-wrap: break-word;
+  font-size: 0.5vw;
+}
+.winnermainsub2 {
+  width: calc(60% - 0.1vw);
+  display: flex;
+  align-items: center;
+  background-color: var(--wineachclr);
+  padding-left: 0.5vw;
+  padding-top: 0.15vw;
+  padding-bottom: 0.15vw;
+  margin-right: 0.1vw;
+}
+.winnermainsub3 {
+  width: calc(30% - 0.7vw);
+  display: flex;
+  background-color: var(--wineachclr);
+  padding-top: 0.05vw;
+  padding-bottom: 0.05vw;
+  padding-right: 0.15vw;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 0.25vw;
+  border-bottom-right-radius: 0.25vw;
+}
+.winnermainsub3_1 {
+  flex: 1;
+  width: 30%;
+  padding: 0.15vw 0.05vw 0.15vw 0px;
+  background-color: var(--wineachclr);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top-right-radius: 0.25vw;
+  border-bottom-right-radius: 0.25vw;
+}
+.winnermainsub3_2 {
+  display: flex;
+  flex-direction: column;
+}
+.winnermainsub3_2_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.55vw;
+  text-align: right;
+  word-break: break-word;
+}
+.winnermainsub3_2_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.55vw;
+  text-align: right;
+  word-break: break-word;
+}
+.playscroll1 {
+  height: 5.4vh;
+  background-color: rgb(44, 49, 55);
+  margin: 0.3vh;
+  border-radius: 0.15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8vw;
+}
+.playsecdiv {
+  display: flex;
+  flex-direction: column;
+  height: 77.4vh;
+  border-radius: 0.15vw;
+}
+.playermain * {
+  font-family: "Montserrat";
+}
+.playermain {
+  width: 18.7%;
+  background-color: rgb(25, 30, 36);
+  display: flex;
+  flex-direction: column;
+  transition: width 1s ease-in-out;
+}
+.playscroll2 {
+  background-color: rgb(44, 49, 55);
+  margin: 0.3vh;
+  border-radius: 0.3vh;
+  display: flex;
+  padding: 0.2vw 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.playscroll2_1 {
+  padding-left: 0.5vw;
+  font-family: "Montserrat-bold";
+  font-size: 0.55vw;
+}
+.playscroll2_2 {
+  padding-right: 0.5vw;
+  font-family: "Montserrat-bold";
+  font-size: 0.55vw;
+}
+.playscroll3 {
+  background-color: rgb(44, 49, 55);
+  margin: 0.3vh;
+  border-radius: 0.15vw;
+  align-items: center;
+}
+.playscrollsub3 {
+  display: flex;
+  flex-direction: row;
+  padding: 0.15vw;
+}
+.playscrollsub3_1 {
+  width: calc(70% - 0.6vw);
+  display: flex;
+  align-items: center;
+  background-color: var(--wineachclr);
+  padding-left: 0.5vw;
+  padding-top: 0.15vw;
+  padding-bottom: 0.15vw;
+  margin-right: 0.15vw;
+}
+.playscrollsub3_2 {
+  width: 30%;
+  display: flex;
+  background-color: var(--wineachclr);
+  padding-top: 0.15vw;
+  padding-bottom: 0.15vw;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 0.25vw;
+  border-bottom-right-radius: 0.25vw;
+}
+.playscrollsub3_2_1 {
+  flex: 1;
+  width: 30%;
+  padding: 0.15vw 0.5vw 0.15vw 0px;
+  background-color: var(--wineachclr);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top-right-radius: 0.25vw;
+  border-bottom-right-radius: 0.25vw;
+}
+.playscroll-sub3 {
+  display: flex;
+  flex-direction: column;
+}
+.playscrollsub3_2_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 0.55vw;
+  align-items: center;
+  text-align: right;
+  word-break: break-word;
+}
+.playscrollsub3_2_3 {
+  color: var(--mainclr);
+  font-size: 0.5vw;
+}
+.playscroll4 {
+  background-color: rgb(44, 49, 55);
+  margin: 0.15vw;
+  padding: 0.1vw;
+  border-radius: 0.15vw;
+  align-items: center;
+}
+.playscrollblockmain {
+  display: flex;
+  flex-direction: row;
+}
+.playscroll4_1 {
+  flex: 1;
+  width: 30%;
+  margin: 0.06vw;
+  padding: 0.05vw 0.1vw;
+  background-color: var(--wineachclr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 0.25vw;
+  border-bottom-right-radius: 0.25vw;
+}
+.playscroll-sub4 {
+  display: flex;
+  flex-direction: column;
+}
+.playscroll4_1_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  word-break: break-word;
+  font-size: 0.55vw;
+  margin: 1px 0px;
+}
+.playscroll4_1_1 > .fa-times {
+  font-size: 0.6vw;
+}
+.playscroll4_1_2 {
+  color: var(--mainclr);
+  font-size: 0.5vw;
+}
+.gambbottombonus {
+  height: 4.2vh;
+  margin: 0.3vh;
+  padding: 0px 0.5vh;
+  background-color: rgb(44, 49, 55);
+  display: flex;
+  flex-direction: row;
+  border-radius: 0.3vh;
+  justify-content: center;
+}
+.gambplaysec {
+  height: 10vh;
+  margin: 0.3vh;
+  display: flex;
+  flex-direction: row;
+}
+.video-container {
+  height: 66vh;
+  margin: 0.3vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* text-align: center;
+  align-items: center; */
+}
+.main-gamb-over-sec1 {
+  font-size: 16vw;
+  flex: 1;
+  text-align: right;
+}
+.main-gamb-over-sec2 {
+  font-size: 16vw;
+  flex: 1;
+  text-align: left;
+}
+.fadeIn {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.main-gamb-over-ammoCountRoll {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 3vh;
+}
+.main-gamb-over-counter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+.main-gamb-img {
+  width: 100%;
+  height: 100%;
+}
+.mainvideo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  z-index: 0;
+  border-radius: 0.3vh;
+}
+.videosource {
+  height: 100%;
+  width: 100%;
+}
+.MagicScroll > span {
+  display: none !important;
+}
+.MagicScroll > div > a {
+  display: none !important;
+}
+.MagicScroll {
+  flex: 5;
+  display: flex;
+  margin: 0.3vh 0px;
+  flex-direction: row;
+  height: 100%;
+}
+.gambtopbonus {
+  height: 5.4vh;
+  margin: 0.3vh;
+  background-color: rgb(44, 49, 55);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: row;
+  border-radius: 0.3vh;
+}
+.gamblingmain {
+  width: 62.9%;
+  background-color: rgb(24, 29, 35);
+  display: flex;
+  flex-direction: column;
+  transition: width 1s ease-in-out;
+}
+.logosec {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gambtopimg {
+  width: 75%;
+}
+.bonussec {
+  flex: 5;
+  display: flex;
+  padding: 0.1vh 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bonusbtn-main {
+  flex: 1;
+  margin: 0px 0.5vh !important;
+  border-radius: 0.3vh;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100% !important;
+}
+.mcs-item {
+  width: 20% !important;
+}
+.gambtopbonusfontsm {
+  font-size: 1.2vh;
+  color: black;
+}
+.gambtopbonusfont {
+  font-size: 3vh;
+  color: black;
+}
+.customplayscroll {
+  height: 71.4vh;
+}
+.bonustnsm {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  margin: 0.4vh 0.2vh;
+  border-radius: 0.2vw;
+  justify-content: center;
+  align-items: center;
+}
+.bonussmtitle {
+  color: black;
+  font-size: 0.9vh;
+}
+.bonussmbtn1 {
+  font-size: 1.9vh;
+  color: black;
+  word-wrap: break-word;
+}
+.bonussmbtn {
+  font-size: 2.1vh;
+  color: black;
+  word-wrap: break-word;
+}
+.gambplaysecleft {
+  flex: 3;
+  background-color: rgb(44, 49, 55);
+  margin-right: 0.3vh;
+  border-radius: 0.3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.gamb-play-sec-left-1 {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0.5vh;
+}
+.gambplaysecleftsub {
+  flex: 1;
+  background-color: rgb(28, 33, 39);
+  font-size: 0.83vh;
+  letter-spacing: 0.8px;
+  padding: 0.3vh 0px;
+  border-bottom-right-radius: 0.25vw;
+  border-top-right-radius: 0.25vw;
+  color: var(--mainclr);
+  cursor: pointer;
+}
+.gambplaysecmid {
+  flex: 4.3;
+  background-color: rgb(44, 49, 55);
+  margin: 0px 0.3vh;
+  border-radius: 0.3vh;
+  display: flex;
+  flex-direction: column;
+}
+.gambplaysecfootbtn {
+  flex: 5;
+  display: flex;
+  padding: 0px 0.5vh;
+}
+.gambplaysecfootsubbtn {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin: 0.5vh 0px;
+}
+.gambplaysecbtn1 {
+  flex: 5;
+  margin-right: 0.3vh;
+  background-color: var(--mainclr);
+  border-bottom: 0.5vh solid var(--mainshwclr);
+  border-top-left-radius: 0.5vh;
+  border-bottom-left-radius: 0.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 1s all;
+}
+.gamb-play-sec-left-2 {
+  flex: 4;
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0.5vh;
+}
+.gambplayactsecfont {
+  font-size: 1.7vh;
+  color: black;
+  font-family: "Montserrat-strong-bold";
+}
+.gambplaysecbtn2 {
+  flex: 8;
+  margin-right: 0.3vh;
+  background-color: var(--mainclr);
+  border-bottom: 0.5vh solid var(--mainshwclr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5vh;
+  color: black;
+  font-family: "Montserrat-strong-bold";
+  cursor: pointer;
+  transition: background-color 1s, transform 500ms;
+}
+
+.gambplaysecbtn2:active {
+  transform: scale(0.95);
+}
+.gambplaysecbtn3 {
+  flex: 5;
+  background-color: var(--mainclr);
+  border-bottom: 0.5vh solid var(--mainshwclr);
+  border-top-right-radius: 0.5vh;
+  border-bottom-right-radius: 0.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 900;
+  font-size: 4vh;
+  cursor: pointer;
+  transition: 1s all;
+}
+.gamb-play-sec-left-3 {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0.5vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.gambplaysecright {
+  flex: 3;
+  background-color: rgb(44, 49, 55);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 0.3vh;
+  border-radius: 0.3vh;
+}
+.playsecmain {
+  display: flex;
+  flex-direction: row;
+  height: 88vh;
+}
+.mainleftseccls {
+  width: 86.8%;
+  background-color: #ddd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.userregico {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.logo-img-div {
+  flex: 1;
+}
+.walletdiv {
+  flex: 5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+.pricedrop:active {
+  transform: scale(0.9);
+}
+.pricedrop {
+  background-color: rgb(44, 49, 55);
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  padding-right: 1vh;
+  padding-left: 2vh;
+  font-size: 1.2vh;
+  color: var(--white);
+  border-bottom: 0.5vh solid rgb(23, 28, 34);
+  border-bottom-left-radius: 0.5vh;
+  border-top-left-radius: 0.5vh;
+  transition: all 200ms;
+}
+.mainchatcls * {
+  font-family: "Montserrat";
+}
+.slidermobilefont {
+  font-size: 1.7vh;
+}
+.slidermobilefontsm1 {
+  font-size: 1.7vh;
+}
+.slidermobilefontsm {
+  font-size: 0.7vh;
+  letter-spacing: 0.1vh;
+}
+.notification-container * {
+  font-size: 1vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.user-info-block {
+  position: relative;
+  margin-right: 2vh;
+}
+.user-info-name {
+  font-size: 1.5vh !important;
+  cursor: pointer;
+}
+.user-info-down {
+  font-size: 1.5vh !important;
+  cursor: pointer;
+}
+.user-info-menu-block {
+  background-color: var(--wineachclr);
+  z-index: 100;
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 2.5vh;
+  display: flex;
+  box-shadow: 1px 0px 5px 1px white;
+  width: auto;
+  max-width: 250px;
+  flex-direction: column;
+}
+.user-info-menu-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+  justify-content: flex-end;
+  min-height: 5vh;
+  transition: 0.3s all;
+}
+.user-info-menu-item:hover {
+  transform: scale(0.9);
+  color: var(--mainclr);
+}
+.mainchatcls {
+  z-index: 11;
+  width: "13.2%";
+  background-color: #ccc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: 0.5s all;
+}
+.newmsgbtn {
+  position: absolute;
+  bottom: 4vh;
+  color: var(--mainclr);
+  font-size: 4vh !important;
+  letter-spacing: 0.3vw;
+  font-weight: 900;
+  -webkit-animation: newmsgaction 0.5s infinite alternate;
+  animation: newmsgaction 0.5s infinite alternate;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+}
+@-webkit-keyframes newmsgaction {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-1.5vh);
+  }
+}
+@keyframes newmsgaction {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-1.5vh);
+  }
+}
+.emojiicon {
+  cursor: pointer;
+  position: absolute;
+  right: 2vh;
+  font-size: 1.5vh !important;
+}
+.emojii {
+  font-size: 1.5vh !important;
+  color: gray;
+  cursor: pointer;
+}
+
+.emojiblock * {
+  color: var(--mainclr);
+  font-size: 0.6vw;
+}
+
+.emoji-mart > .emoji-mart-bar {
+  display: none;
+}
+
+.emoji-mart::-webkit-scrollbar {
+  width: 0px;
+}
+.emoji-mart {
+  scrollbar-width: none;
+  scrollbar-color: var(--mainclr) rgb(44, 49, 55);
+  /* border: 0.4vh solid rgb(44, 49, 55); */
+}
+.emoji-mart-scroll * {
+  background-color: rgb(44, 49, 55) !important;
+}
+.emoji-mart-scroll::-webkit-scrollbar {
+  width: 1vh;
+}
+.emoji-mart-scroll::-webkit-scrollbar-track {
+  background-color: rgb(44, 49, 55);
+  border-radius: 50px;
+}
+.emoji-mart-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--mainclr) rgb(44, 49, 55);
+}
+
+.emoji-mart-scroll::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: var(--mainclr);
+}
+
+.emoji-mart-scroll {
+  background-color: rgb(44, 49, 55);
+  padding: 0px !important;
+}
+.emoji-mart-search * {
+  font-size: 9px !important;
+}
+.emoji-mart-search {
+  background-color: rgb(44, 49, 55) !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  padding: 6px 6px 0px 6px !important;
+}
+.emoji-mart-search > input {
+  background-color: rgb(44, 49, 55);
+  border-color: var(--mainclr) !important;
+}
+
+.emoji-mart-search > button {
+  top: 9px;
+}
+
+.each_ammo {
+  width: 1.5vh;
+  height: 5vh;
+  margin: 0px 0.7vh;
+  -webkit-transition: background-color 1s ease-in-out;
+  -moz-transition: background-color 1s ease-in-out;
+  -o-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
+  background-color: var(--headclr);
+}
+
+.full_ammo {
+  background-color: var(--mainclr);
+}
+
+.login-modal-btn {
+  flex: 1;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2vh;
+}
+
+.main-gamb-over-slider {
+  position: absolute;
+  top: 20vh;
+  left: 0;
+  width: 100%;
+}
+
+.mainscroll-card {
+  flex: 5;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-image: url("./assests/img/bonus-card.png");
+  background-repeat: repeat-x;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.mid_stick {
+  width: 0.28vw;
+  height: 120%;
+  z-index: 200;
+  top: -10%;
+  opacity: 1;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.35);
+  transform: translateX(-50%);
+  transition: all 1s ease 0s;
+}
+
+.shw_op {
+  opacity: 0;
+}
+
+.bet-gamb-input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.8vh;
+  text-align: center;
+}
+
+.range-blk {
+  position: absolute;
+  background-color: rgb(44, 49, 55);
+  padding: 0.3vh;
+}
+.blk {
+  background-color: rgb(28, 33, 39);
+  width: 2vh;
+  height: 1.3vh;
+}
+.range-selected {
+  background-color: var(--mainclr);
+}
+.range-blk1 {
+  left: 0;
+  padding: 0px;
+  padding-right: 0.3vh;
+}
+.range-blk2 {
+  left: 25%;
+  transform: translateX(-50%);
+}
+.range-blk3 {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.range-blk4 {
+  left: 75%;
+  transform: translateX(-50%);
+}
+.range-blk5 {
+  right: 0;
+  padding: 0px;
+  padding-left: 0.3vh;
+}
+
+.chg_bet_fit {
+  cursor: pointer;
+  font-size: 1.2vh;
+  transition: all 300ms ease-out 0s;
+}
+
+.chg_bet_rot {
+  transform: rotate(0deg);
+}
+.chg_fit_rot {
+  transform: rotate(180deg);
+}
+
+.game-play-sec-base {
+  flex: 1;
+  background-color: var(--mainclr);
+  color: black;
+  font-size: 1.1vh;
+  padding: 0.1vh 0px;
+  border-bottom-left-radius: 0.5vh;
+  border-top-left-radius: 0.5vh;
+  border-width: 0.4vh;
+  border-style: none none solid none;
+  border-color: rgb(146, 120, 76);
+  cursor: pointer;
+  transition: all 500ms ease 0s;
+}
+.game-play-sec-base-sel {
+  background-color: rgb(28, 33, 39);
+  border-bottom-color: rgb(33, 38, 44);
+  color: white;
+}
+.game-play-sec-bonus {
+  flex: 1;
+  background-color: rgb(28, 33, 39);
+  font-size: 1.1vh;
+  padding: 0.1vh 0px;
+  border-bottom-right-radius: 0.5vh;
+  border-top-right-radius: 0.5vh;
+  border-width: 0.4vh;
+  border-style: none none solid none;
+  border-color: rgb(33, 38, 44);
+  cursor: pointer;
+  transition: all 500ms ease 0s;
+}
+.game-play-sec-bonus-sel {
+  background-color: var(--mainclr);
+  border-bottom-color: var(--mainshwclr);
+  color: black;
+}
+.chatroomtitle {
+  flex: 4;
+  font-size: 0.6vw;
+}
+.sliderdiv2 {
+  height: 3vh;
+  margin-bottom: 0.5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.slidermobilefont-lvl {
+  flex: 0.8;
+  color: rgb(205, 83, 52);
+  font-size: 1.3vh;
+}
+.chateachicon {
+  margin: 0px 0.2vh;
+}
+.chateachicon > i {
+  font-size: 1.3vh;
+}
+.chatico1 {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.chatico2 {
+  flex: 1.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

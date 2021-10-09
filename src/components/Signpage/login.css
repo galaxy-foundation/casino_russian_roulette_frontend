@@ -1,0 +1,129 @@
+.logindisablebtn {
+  border-radius: 0.5vw !important;
+  background-color: rgb(163, 160, 155) !important;
+  border-bottom-color: rgb(106, 106, 106) !important;
+  border-bottom-style: solid !important;
+  border-width: 0.5rem !important;
+  padding: 0 !important;
+}
+
+.logindisablebtn .MuiButton-label {
+  font-size: 20px !important;
+  color: black !important;
+}
+
+.loginenablebtn {
+  border-radius: 0.5vw !important;
+  background-color: var(--mainclr) !important;
+  border-bottom-color: var(--mainshwclr) !important;
+  border-bottom-style: solid !important;
+  border-width: 0.5rem !important;
+  padding: 0 !important;
+}
+
+.loginenablebtn .MuiButton-label {
+  font-size: 20px !important;
+  color: black !important;
+}
+
+.loginlogotitle {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0 7px 0;
+}
+.loginlogoimg {
+  width: 50%;
+}
+
+.logintab {
+  text-transform: none !important;
+  font-size: 12px !important;
+  border-bottom: 2px solid rgb(36, 41, 47) !important;
+}
+
+.logintab > .MuiTab-wrapper {
+  color: var(--mainclr) !important;
+  font-size: 13px !important;
+}
+.logintabs {
+  color: white !important;
+}
+.logintabs .MuiTabs-indicator {
+  background-color: var(--mainclr) !important;
+}
+
+.loginortext {
+  font-size: 12px !important;
+  text-align: center;
+}
+.loginbtns {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.loginbtn {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  border-bottom: 5px solid rgb(160, 162, 165);
+  border-radius: 0.7vw;
+  cursor: pointer;
+}
+.loginbtn > i {
+  color: black;
+  font-size: 20px !important;
+}
+.loginortext > span {
+  font-size: 12px !important;
+  cursor: pointer;
+  color: var(--mainclr);
+}
+
+.loginortext > span:hover {
+  text-decoration: underline;
+}
+.loginreghere {
+  font-size: 12px !important;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.loginreghere > span {
+  font-size: 12px !important;
+  cursor: pointer;
+  color: var(--mainclr);
+}
+.loginreghere > span:hover {
+  text-decoration: underline;
+}
+.eyeicons {
+  font-size: 20px !important;
+  cursor: pointer;
+}
+.regpassgroup {
+  display: flex !important;
+  flex-direction: row !important;
+}
+@media screen and (min-height: 100vh) {
+  .MuiDialog-paper::-webkit-scrollbar {
+    width: 0vh;
+  }
+  .MuiDialog-paper {
+    scrollbar-width: none;
+  }
+  .MuiDialog-paper::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 50px;
+  }
+
+  .MuiDialog-paper::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    border: 0vh solid rgb(44, 49, 55);
+    background-color: rgb(32, 37, 43);
+  }
+}

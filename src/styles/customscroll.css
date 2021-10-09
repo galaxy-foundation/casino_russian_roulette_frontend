@@ -1,0 +1,62 @@
+.customscroll::-webkit-scrollbar {
+  width: 1vh;
+}
+.customscroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(44, 49, 55) rgb(32, 37, 43);
+  /* border: 0.4vh solid rgb(44, 49, 55); */
+}
+
+.customscroll::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.customscroll::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  border: 0.4vh solid rgb(44, 49, 55);
+  background-color: rgb(32, 37, 43);
+}
+
+.customwinscroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+.customwinscroll {
+  scrollbar-width: none;
+}
+
+.customwinscroll::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.customwinscroll::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  /* border: 0.4vh solid rgb(32, 37, 43);
+  background-color: rgb(44, 49, 55); */
+  background-color: rgb(23, 28, 34);
+}
+
+.customplayscroll {
+  overflow-y: scroll;
+}
+.customplayscroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+.customplayscroll {
+  scrollbar-width: none;
+}
+
+.customplayscroll::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.customplayscroll::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  /* border: 0.4vh solid rgb(32, 37, 43);
+  background-color: rgb(44, 49, 55); */
+  background-color: rgb(44, 49, 55);
+}

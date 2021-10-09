@@ -1,0 +1,41 @@
+.trapezium {
+  flex: 1;
+  height: 2vh;
+  transform: skew(-50deg);
+  background-color: transparent;
+  margin: 0px 0.7vh;
+  border: 0.1vh solid var(--mainclr);
+  border-bottom: 0.5vh solid var(--mainshwclr);
+  transition: all 1s ease-in-out 0s;
+}
+.bonusbar1 {
+  flex: 1;
+  height: 0.8vh;
+  transform: skew(-45deg);
+  background-color: var(--mainclr);
+  margin: 0px 0.2vh;
+  border-bottom: 0.5vh solid var(--mainshwclr);
+}
+
+.bonusbar2 {
+  flex: 1;
+  height: 0.8vh;
+  border-radius: 3vh;
+  background-color: var(--mainclr);
+  margin: 0px 0.2vh;
+  border-bottom: 0.5vh solid var(--mainshwclr);
+}
+
+.now_real {
+  background-color: var(--mainclr);
+  height: 100%;
+  width: 100%;
+  transition: width 1s;
+}
+
+.now_xp {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  transition: width 1s;
+}
