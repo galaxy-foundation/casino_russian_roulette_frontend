@@ -12,9 +12,24 @@ And you need an installation for MongoDB. (version 3.4+)
 2- npm install <br>
 3- npm run start <br>
 
-![First Local](https://i.ibb.co/GC10ZBx/Screenshot-1.png)
-![First Local](https://i.ibb.co/d09rYpH/Screenshot-2.png)
-![First Local](https://i.ibb.co/f4y0dF8/Screenshot-3.png)
-![First Local](https://i.ibb.co/JmttkDP/Screenshot-4.png)
-![First Local](https://i.ibb.co/JmttkDP/Screenshot-5.png)
-![First Local](https://i.ibb.co/JmttkDP/Screenshot-6.png)
+# Page
+
+You start VS code.
+Then, VS Code will open First page, so you can see first page like followoing this.
+
+![First Local](screenshots/Screenshot-1.png)
+
+Login Page
+![First Local](screenshots/Screenshot-2.png)
+
+Register Page
+![First Local](screenshots/Screenshot-3.png)
+
+Main gamble page
+![First Local](screenshots/Screenshot-4.png)
+
+Account Page
+![First Local](screenshots/Screenshot-5.png)
+
+Transaction view page
+![First Local](screenshots/Screenshot-6.png)
