@@ -8,6 +8,6 @@ And you need an installation for MongoDB. (version 3.4+)
 
 # How to run:
 
-1- git clone '<Your repository URL>' <br>
+1- git clone "Your repository URL" <br>
 2- npm install <br>
 3- npm run start <br>
