@@ -633,7 +633,7 @@ class Maingamble extends Component {
             <div className="gamb-play-sec-left-3">
               <input
                 type="range"
-                min="1"
+                min="0"
                 max="100"
                 defaultValue="0"
                 className="rangeright"
