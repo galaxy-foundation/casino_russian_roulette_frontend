@@ -9,6 +9,7 @@
     "dotenv": "^10.0.0",
     "emoji-mart": "^3.0.1",
     "emoji-picker-react": "^3.4.8",
+    "env-cmd": "^10.1.0",
     "formik": "^2.2.9",
     "jwt-decode": "^3.1.2",
     "prop-types": "^15.7.2",

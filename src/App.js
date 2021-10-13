@@ -8,7 +8,6 @@ import { setCurrentUser, logoutUser } from "./actions/authAction";
 import Home from "./components/Home";
 import { NotificationContainer } from "react-notifications";
 import "react-notifications/lib/notifications.css";
-require("dotenv").config({ path: "../.env" });
 
 // import socketIOClient from "socket.io-client";
 // const SERVER = "http://192.168.113.155:8080";
@@ -33,7 +32,6 @@ if (localStorage.jwtToken) {
 
 class App extends Component {
   render() {
-    // console.log(process.env.CHATSERVER);
     return (
       <Provider store={store}>
         <Router>
