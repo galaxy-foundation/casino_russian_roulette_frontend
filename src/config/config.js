@@ -1,3 +1,3 @@
 module.exports = {
-  chatServerURI: "192.168.113.155:8080",
+  chatServerURI: "192.168.113.155:8000",
 };
