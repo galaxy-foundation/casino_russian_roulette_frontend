@@ -9,8 +9,6 @@ import Home from "./components/Home";
 import { NotificationContainer } from "react-notifications";
 import "react-notifications/lib/notifications.css";
 
-// import socketIOClient from "socket.io-client";
-// const SERVER = "http://192.168.113.155:8080";
 // Check for token
 if (localStorage.jwtToken) {
   // Set auth token header auth

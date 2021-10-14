@@ -4,7 +4,8 @@ import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import socketIOClient from "socket.io-client";
 import { user_connections } from "../../actions/userconnectAction";
-const SERVER = "http://192.168.113.155:8080";
+
+const SERVER = require("../../config/config").chatServerURI;
 
 class Chatact extends Component {
   componentDidMount() {

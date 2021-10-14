@@ -3,7 +3,7 @@ import Winblock from "./Winblock";
 import "../../styles/customscroll.css";
 
 import socketIOClient from "socket.io-client";
-const SERVER = "http://192.168.113.155:8080";
+const SERVER = require("../../config/config").chatServerURI;
 
 class Winner extends Component {
   constructor() {

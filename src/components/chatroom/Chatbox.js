@@ -12,9 +12,9 @@ import { connect } from "react-redux";
 import { NotificationManager } from "react-notifications";
 import socketIOClient from "socket.io-client";
 import "emoji-mart/css/emoji-mart.css";
-
 import "../../styles/customscroll.css";
-const SERVER = "http://192.168.113.155:8080";
+
+const SERVER = require("../../config/config").chatServerURI;
 
 class Chatbox extends Component {
   constructor() {

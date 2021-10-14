@@ -5,8 +5,7 @@ import jwt_decode from "jwt-decode";
 import socketClient from "socket.io-client";
 
 import { GET_ERRORS, SET_CURRENT_USER, USER_CONNECTION } from "./types";
-
-const SERVER = "http://192.168.113.155:8080";
+const SERVER = require("../config/config").chatServerURI;
 const socket = socketClient(SERVER);
 
 // Register User

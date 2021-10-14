@@ -6,9 +6,9 @@ import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { prev_roll_save } from "../../actions/maingameAction";
 import isFixedNumber from "../../validation/isFixedNumber";
-
 import "../../styles/maingamble.css";
-const SERVER = "http://192.168.113.155:8080";
+
+const SERVER = require("../../config/config").chatServerURI;
 
 class Maingamble extends Component {
   constructor() {

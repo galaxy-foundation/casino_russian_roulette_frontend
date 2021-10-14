@@ -6,7 +6,8 @@ import socketIOClient from "socket.io-client";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 import "../../styles/maingamble.css";
-const SERVER = "http://192.168.113.155:8080";
+
+const SERVER = require("../../config/config").chatServerURI;
 
 let speed = 0;
 
