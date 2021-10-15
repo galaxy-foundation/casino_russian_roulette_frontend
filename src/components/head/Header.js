@@ -70,7 +70,7 @@ class Header extends Component {
           <Link to="/">
             <img
               className="headmainimg"
-              src="img/logo.png"
+              src="img/atari_mark.png"
               style={styles.img}
               alt="logo"
             ></img>
@@ -206,7 +206,7 @@ class Header extends Component {
 
 const styles = {
   main: {
-    height: "5vh",
+    height: "8vh",
     backgroundColor: "var(--headclr)",
     display: "flex",
     flexDirection: "row",

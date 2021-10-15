@@ -166,7 +166,7 @@
   }
 }
 .winnermainheader {
-  height: 5.4vh;
+  height: 6.4vh;
   background-color: rgb(44, 49, 55);
   margin: 0.3vh;
   display: flex;
@@ -788,7 +788,7 @@
   align-items: center;
 }
 .playscroll7 {
-  height: 10vh;
+  height: 12vh;
   background-color: rgb(44, 49, 55);
   margin: 0.3vh;
   display: flex;
@@ -839,7 +839,7 @@
   color: black;
 }
 .customwinscroll {
-  height: 70.8vh;
+  height: 72.4vh;
   margin: 0.3vh;
   overflow-y: scroll;
   background-color: var(--winblkclr);
@@ -924,7 +924,7 @@
   word-break: break-word;
 }
 .playscroll1 {
-  height: 5.4vh;
+  height: 6.4vh;
   background-color: rgb(44, 49, 55);
   margin: 0.3vh;
   border-radius: 0.15vw;
@@ -936,7 +936,6 @@
 .playsecdiv {
   display: flex;
   flex-direction: column;
-  height: 77.4vh;
   border-radius: 0.15vw;
 }
 .playermain * {
@@ -1073,7 +1072,7 @@
   font-size: 0.5vw;
 }
 .gambbottombonus {
-  height: 4.2vh;
+  height: 5.4vh;
   margin: 0.3vh;
   padding: 0px 0.5vh;
   background-color: rgb(44, 49, 55);
@@ -1083,13 +1082,13 @@
   justify-content: center;
 }
 .gambplaysec {
-  height: 10vh;
+  height: 12vh;
   margin: 0.3vh;
   display: flex;
   flex-direction: row;
 }
 .video-container {
-  height: 66vh;
+  height: 66.4vh;
   margin: 0.3vh;
   position: relative;
   display: flex;
@@ -1159,7 +1158,7 @@
   height: 100%;
 }
 .gambtopbonus {
-  height: 5.4vh;
+  height: 6.4vh;
   margin: 0.3vh;
   background-color: rgb(44, 49, 55);
   display: flex;
@@ -1215,7 +1214,7 @@
   color: black;
 }
 .customplayscroll {
-  height: 71.4vh;
+  height: 72.4vh;
 }
 .bonustnsm {
   width: 10%;
@@ -1365,10 +1364,10 @@
 .playsecmain {
   display: flex;
   flex-direction: row;
-  height: 88vh;
+  height: 92vh;
 }
 .mainleftseccls {
-  width: 86.8%;
+  width: 100%;
   background-color: #ddd;
   height: 100vh;
   display: flex;

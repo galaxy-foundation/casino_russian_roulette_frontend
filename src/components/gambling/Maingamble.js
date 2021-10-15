@@ -147,7 +147,11 @@ class Maingamble extends Component {
       <div className="gamblingmain">
         <div className="gambtopbonus">
           <div className="logosec">
-            <img className="gambtopimg" src="img/logo.png" alt="logo1"></img>
+            <img
+              className="gambtopimg"
+              src="img/atari_mark.png"
+              alt="logo1"
+            ></img>
           </div>
           <div id="mainscroll-card" className="mainscroll-card">
             <div
@@ -157,7 +161,11 @@ class Maingamble extends Component {
             ></div>
           </div>
           <div className="logosec">
-            <img className="gambtopimg" src="img/logo.png" alt="logo1"></img>
+            <img
+              className="gambtopimg"
+              src="img/atari_mark.png"
+              alt="logo1"
+            ></img>
           </div>
         </div>
         <div className="video-container">

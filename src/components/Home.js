@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Leftsection from "./Leftsection";
-import Rightchatsection from "./Rightchatsection";
+// import Rightchatsection from "./Rightchatsection";
 
 class Home extends Component {
   render() {
@@ -14,7 +14,7 @@ class Home extends Component {
         }}
       >
         <Leftsection></Leftsection>
-        <Rightchatsection></Rightchatsection>
+        {/* <Rightchatsection></Rightchatsection> */}
       </div>
     );
   }
